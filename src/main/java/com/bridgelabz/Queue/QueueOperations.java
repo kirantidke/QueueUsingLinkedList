@@ -26,10 +26,10 @@ public class QueueOperations {
         this.rear.next = temp;
         this.rear = temp;
     }
-    // Method to remove an key from queue.
+    // Method to remove an key from queue
 	void dequeue()
     {
-        // If queue is empty, return NULL.
+        // If queue is empty, return NULL
         if (this.front == null)
             return;
   
